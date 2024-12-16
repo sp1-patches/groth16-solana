@@ -1,6 +1,6 @@
 [package]
 name = "groth16-solana"
-version = "0.0.4"
+version = "0.0.3"
 edition = "2021"
 description = "groth16 verification with solana alt_bn128 syscalls"
 repository = "https://github.com/Lightprotocol/groth16-solana"
@@ -14,7 +14,6 @@ ark-ec = "0.4.2"
 ark-ff = "0.4.2"
 ark-bn254 = "0.4.0"
 num-bigint = "0.4.6"
-hex = "0.4.3"   
 thiserror = "1.0"
 
 [dev-dependencies]
